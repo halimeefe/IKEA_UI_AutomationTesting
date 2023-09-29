@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+
+<suite name="MySuit"
+       parallel="tests" thread-count="3">
+
+    <test name="IKEATest1">
+        <parameter name="browserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="Runners.Parallel_Testing"></class>
+        </classes>
+
+    </test>
+
+    <test name="IKEATest2">
+        <parameter name="browserTipi" value="firefox"></parameter>
+
+        <classes>
+            <class name="Runners.Parallel_Testing"></class>
+        </classes>
+
+    </test>
+
+    <test name="IKEATest3">
+        <parameter name="browserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="Runners.Parallel_Testing"></class>
+        </classes>
+
+    </test>
+
+
+</suite>

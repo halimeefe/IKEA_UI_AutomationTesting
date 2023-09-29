@@ -1,0 +1,27 @@
+
+PROJE ÖZETİ :
+
+Bu proje, IKEA'nın web sitesini kullanarak dört farklı özellik içeren
+bir otomasyon test projesidir. İlk senaryo, kullanıcının en yakındaki IKEA mağazası
+hakkında bilgi almasını sağlar. İkinci senaryo, kullanıcının favori ürünler listesine ürün
+eklemesini ve alışveriş sepetine ekleyip sonra silebilmesini test eder. Üçüncü senaryo,
+bir ürünün stok durumunu sorgulamayı gösterirken, dördüncü senaryo ise IKEA'nın
+restoran menüsündeki bir ürünün fiyatını kontrol eder. Her senaryo, web sitesinde gezinmeyi,
+belirli eylemleri gerçekleştirmeyi ve sonuçları doğrulamayı içerir.
+
+KULLANILAN ARAÇLAR VE TEKNOLOJİLER:
+
+Cucumber BDD: Senaryoların tanımlanması ve anlaşılabilirliği için kullanıldı.
+Selenium: Web uygulamalarını otomasyonlaştırmak için temel araç.
+TestNG: Testlerin yönetimi, düzenlenmesi ve paralel çalıştırılması için kullanıldı.
+Apache POI: Excel dosyalarını işlemek için kullanıldı.
+Java Programlama Dili: Kodların yazılmasında kullanıldı.
+Paralel Test Çalıştırma: Test süreçlerini hızlandırmak ve optimize etmek için kullanıldı.
+
+TEST SONUÇLARI :
+
+Proje kapsamında testler Extent Report, Cucumber, PDF ve Excel ile raporlanmıştır.
+Her PDF raporu, tarih ve saat bilgisi ile adlandırılır ve arşivlenir.
+Apache POI kütüphanesi kullanılarak Extent raporları Excel dosyasına aktarılır.
+Her Excel raporu yine  tarih ve saat bilgisi ile adlandırılır ve kaydedilir.
+Bu yaklaşım sayesinde, test sonuçları kullanıcılar ve paydaşlar için kolayca erişilebilir hale gelir.
